@@ -7,26 +7,29 @@
     <title>Machado de Assis</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <script src="script.js"></script>
 </head>
+
 <body>
 
   <header>
     <nav id="nav">
-        <a href="#home" class="navbar">Início</a>
-        <a href="#biografia" class="navbar">Biografia</a>
-        <a href="#obras" class="navbar">Obras</a>
-        <button id="btn-mobile">menu</button>
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+          <li><a href="#home" class="navbar">Início</a></li>
+          <li><a href="#biografia" class="navbar">Biografia</a></li>
+          <li><a href="#obras" class="navbar">Obras</a></li>
+        </ul>
     </nav>
   </header>
 
     <main id="home">
-      <div class="machado">
-        <img src="images/Machado.png" alt="Machado de Assis" class="slide-in-left">
-      </div>
         <h1 class="h1main">Machado de <span>Assis</span></h1>
         <h2 class="h2main">O <span>maior escritor</span> da história</h2>
-
+        <div class="machado">
+          <img src="images/Machado.png" alt="Machado de Assis" class="slide-in-left">
+        </div>
     </main>
 
     <article id="biografia">
@@ -151,6 +154,8 @@
         </ul>
         <small> &copy;Designed by Lucas Stampini</small>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
