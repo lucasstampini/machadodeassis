@@ -747,3 +747,69 @@ footer {
     }
 
 }
+
+@media screen and (min-height:600px) and (max-height:900px) and (orientation:portrait) {
+    .h1main {
+        font-size: 240%;
+    }
+
+    .h2main {
+        font-size: 120%;
+    }
+
+    .h1art {
+        font-size: 240%;
+    }
+
+    .h2art {
+        font-size: 120%;
+    }
+}
+
+@media screen and (min-height:901px) and (orientation:portrait) {
+    .navbar {
+        font-size: 200%;
+    }
+    
+    .hamburger {
+        font-size: 40px;
+    }
+    
+    .h1main {
+        font-size: 400%;
+    }
+
+    .h2main {
+        font-size: 210%;
+    }
+
+    .h1art {
+        font-size: 400%;
+    }
+
+    .h2art {
+        font-size: 210%;
+    }
+
+    .name {
+        font-size: 210%;
+    }
+
+    .lorem {
+        font-size: 170%;
+    }
+    
+    .btn-contact {
+        font-size: 200%;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .navbar {
+        font-size: 200%;
+    }
+    
+    .h2art {
+        font-size: 210%;
+    }
+}
